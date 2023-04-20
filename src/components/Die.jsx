@@ -7,7 +7,7 @@ function Die(props) {
   }  
   return (
     <div
-        className="h-16 w-16 shadow-md flex justify-center items-center cursor-pointer rounded-md"
+        className="h-[4.3rem] w-[4.3rem] shadow-md flex justify-center items-center cursor-pointer rounded-md border-2 border-black"
         style={styles}
         onClick={props.holdDice}
     >
